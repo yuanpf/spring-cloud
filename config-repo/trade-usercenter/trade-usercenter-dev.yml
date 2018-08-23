@@ -13,6 +13,7 @@ spring:
         host: localhost #redis 配置
         port: 6379
         password:
+	timeout: 5000
         jedis:
           pool:
             max-active: 100
